@@ -1,0 +1,108 @@
+.video-detail-page {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 20px auto;
+    height: calc(100vh - 40px);
+    padding-top: 20px;
+}
+
+.video-player {
+    flex: 0 0 65%;
+    margin-right: 20px;
+}
+
+.video-player h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.video-player iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+.channel-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.video-description {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.reaction-buttons {
+    margin-bottom: 10px;
+}
+
+.reaction-buttons button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.reaction-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.comments-section {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.comments-section h4 {
+    margin-bottom: 10px;
+}
+
+.comments-section form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.comments-section input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comments-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comments-section li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+}
+
+.recommended-videos {
+    flex: 0 0 30%;
+    margin-left: 10px;
+    overflow: auto;
+}
+
+.recommended-videos h4 {
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+.video-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

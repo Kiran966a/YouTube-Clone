@@ -1,0 +1,39 @@
+.video-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+    padding: 8px; /* Adjusted padding for a better look */
+    width: 100%; /* Full width of grid cell */
+    max-width: 250px; /* Reduced maximum width */
+}
+
+.video-card:hover {
+    transform: scale(1.02);
+}
+
+.video-iframe {
+    width: 100%; /* Full width of the card */
+    height: 160px; /* Adjusted height for the video */
+}
+
+.video-title {
+    display: block;
+    font-size: 16px; /* Adjusted font size for the title */
+    font-weight: bold;
+    padding: 8px 0; /* Adjusted padding for the title */
+    color: #000;
+    text-decoration: none;
+}
+
+.video-title:hover {
+    text-decoration: underline;
+}
+
+.channel-name {
+    font-size: 14px; /* Adjusted font size for channel name */
+    color: #606060;
+    padding: 0 0 4px;
+}
